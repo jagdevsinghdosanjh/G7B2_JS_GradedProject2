@@ -7,6 +7,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // Access the HTML elements and update their content
     document.getElementById('name').textContent = applicant.basics.name;
     document.getElementById('appliedFor').textContent = applicant.basics.AppliedFor;
+    // document.getElementById("./images").appendChild(applicant.basics.image);
     document.getElementById('email').textContent = applicant.basics.email;
     document.getElementById('phone').textContent = applicant.basics.phone;
 

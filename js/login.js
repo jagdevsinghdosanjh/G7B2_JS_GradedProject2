@@ -13,14 +13,3 @@ form.addEventListener('submit', function (event) {
     errorMessage.textContent = 'Invalid username/password';
   }
 });
-
-
-/*
-window.addEventListener('load', function() {
-  if (localStorage.getItem('loggedIn')) {
-    window.location.href = 'resume.html';
-  }
-});
-
-
-*/

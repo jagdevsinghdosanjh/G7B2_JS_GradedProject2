@@ -5,43 +5,49 @@
 	border: 1px solid #ccc;
 	border-radius: 10px;
 	background-color: yellow;
-}
-
-h2 {
+  }
+  
+  h2 {
 	text-align: center;
-}
-
-form {
+  }
+  
+  form {
 	display: flex;
 	flex-direction: column;
-}
-
-label {
+  }
+  
+  label {
 	margin-top: 10px;
-}
-
-input {
+  }
+  
+  input {
 	padding: 5px;
 	margin-bottom: 10px;
 	border-radius: 5px;
 	border: 1px solid #ccc;
-}
-
-button {
+  }
+  
+  button {
 	background-color: #4CAF50;
-	color: white;
+	color:black;
+	font-weight: bolder;
+	font-size: large;
 	padding: 10px 20px;
 	border-radius: 5px;
 	border: none;
 	margin-top: 10px;
 	cursor: pointer;
-}
-
-button:hover {
+	width:30%;
+	margin-right: 35%;
+	margin-left:35%;
+  }
+  
+  button:hover {
 	background-color: #3e8e41;
-}
-
-.error-message {
+  }
+  
+  .error-message {
 	color: red;
 	text-align: center;
-}
+  }
+  
